@@ -1,0 +1,12 @@
+{
+  "name": "pruefung_m324_nael_reinhard",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
