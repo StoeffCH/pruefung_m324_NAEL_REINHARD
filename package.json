@@ -4,7 +4,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "start": "npm run format-check && npm run lint && node index.js"
   },
   "dependencies": {
     "chalk": "^5.0.0"
