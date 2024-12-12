@@ -1,15 +1,24 @@
 export default [
-    {
-      files: ["**/*.js"],
-      languageOptions: {
-        ecmaVersion: "latest",
-        sourceType: "module",
+  {
+    files:
+      [
+        '**/*.js',
+      ],
+    languageOptions:
+      {
+        ecmaVersion:
+          'latest',
+        sourceType:
+          'module',
       },
-      rules: {
-        "no-unused-vars": "error",
-        "prefer-const": "error",
-        "eqeqeq": "error",
+    rules:
+      {
+        'no-unused-vars':
+          'error',
+        'prefer-const':
+          'error',
+        eqeqeq:
+          'error',
       },
-    },
-  ];
-  
+  },
+];
