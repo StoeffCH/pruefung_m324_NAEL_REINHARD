@@ -1,4 +1,3 @@
-const message = 'Main branch change';
 const myUnusedVariable = 42;
 
 if (myUnusedVariable === 42) {
