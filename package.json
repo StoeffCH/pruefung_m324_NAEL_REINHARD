@@ -4,12 +4,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "npm run convert",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "start": "npm run format-check && npm run lint && node index.js"
+    "convert": "node convert.js"
   },
   "dependencies": {
-    "chalk": "^5.0.0"
+    "chalk": "^5.0.0",
+    "marked": "^15.0.3"
   }
 }
