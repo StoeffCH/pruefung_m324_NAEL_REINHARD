@@ -1,3 +1,5 @@
-import chalk from "chalk";
+let myUnusedVariable = 42;
 
-console.log(chalk.blue("It works"));
+if (myUnusedVariable == '42') {
+  console.log('This will trigger eqeqeq rule');
+}
